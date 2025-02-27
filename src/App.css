@@ -28,8 +28,12 @@
 .exp{
   padding: 10px;
 }
-
+/* colors
+62929e
+c6c5b9
+fdfdff */
 .flip-card {
+  background-color: #546a7b;
   position: relative;
   transform-style: preserve-3d;
   min-height: 432px;
@@ -47,4 +51,8 @@
   align-items: center;
   justify-items: center;
   transform: rotateY(180deg);
+}
+
+.projects{
+  padding: 10px
 }
