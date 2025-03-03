@@ -44,6 +44,9 @@ function Experience() {
           initial = {{opacity: 0, y: '20vh'}}
           whileInView = {{opacity: 1, y: 0, rotateY: flipped[2] ? 180: 0}}
           viewport={{ once: true }}
+          whileTap={{
+            scale: 0.985,
+          }}
           transition={{
             y: {duration: 0.5},
             opacity: {duration: 3},
@@ -69,6 +72,9 @@ function Experience() {
           initial = {{opacity: 0, y: '20vh'}}
           whileInView = {{opacity: 1, y: 0, rotateY: flipped[1] ? 180: 0}}
           viewport={{ once: true }}
+          whileTap={{
+            scale: 0.985,
+          }}
           transition={{
             y: {duration: 1},
             opacity: {duration: 3},
@@ -95,7 +101,10 @@ function Experience() {
           onClick={() => handleFlip(0)}
           initial = {{opacity: 0, y: '20vh'}}
           whileInView = {{opacity: 1, y: 0, rotateY: flipped[0] ? 180: 0}}
-          viewport={{ once: true }} 
+          viewport={{ once: true }}
+          whileTap={{
+            scale: 0.985,
+          }}
           transition={{
             y: {duration: 1.5},
             opacity: {duration: 3},

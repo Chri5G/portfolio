@@ -51,7 +51,7 @@ function Home() {
           <p className="my-6 max-w-xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
             Hello I am a Computer Engineering Graduate from the University of Texas at San Antonio! I am a Full Stack Developer with 3+ years experience building professional websites using <b>Ruby on Rails</b> and <b>React</b>.
           </p>
-          <motion.button
+          {/* <motion.button
             style={{
               border,
               boxShadow,
@@ -66,7 +66,7 @@ function Home() {
           >
             Contact Me
             <FiArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" />
-          </motion.button>
+          </motion.button> */}
         </div>
 
         <div className="absolute inset-0 z-0">
