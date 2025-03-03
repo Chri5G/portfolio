@@ -5,9 +5,9 @@ const titleVariant={
   visible: {
     x: ['100%', 0],
     transition: {
-      duration: 0.5,
+      duration: 1,
       ease: easeInOut,
-      type: 'spring',
+      type: 'linear',
     }
   }
 }

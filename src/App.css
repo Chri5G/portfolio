@@ -33,7 +33,8 @@
 c6c5b9
 fdfdff */
 .flip-card {
-  background-color: #546a7b;
+  background-color: #000048;
+  color: white;
   position: relative;
   transform-style: preserve-3d;
   min-height: 432px;

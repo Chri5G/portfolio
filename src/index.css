@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #050817;
+  background-color: #546a7b;
   color: #fff;
 
   font-synthesis: none;
@@ -28,6 +28,8 @@ a:hover {
 }
 
 body {
+  color: white;
+  background-color: #546a7b;
   margin: 0;
   /* display: flex; */
   /* place-items: center; */
