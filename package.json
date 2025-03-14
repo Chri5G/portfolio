@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/righteous": "^5.2.5",
     "@react-three/drei": "^10.0.3",
     "@react-three/fiber": "^9.0.4",
     "framer-motion": "^12.4.7",

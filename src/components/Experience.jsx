@@ -1,16 +1,6 @@
 import { useState } from 'react'
-import { easeIn, easeInOut, motion } from 'framer-motion';
-
-const titleVariant={
-  visible: {
-    x: ['100%', 0],
-    transition: {
-      duration: 1,
-      ease: easeInOut,
-      type: 'linear',
-    }
-  }
-}
+import { motion } from 'framer-motion';
+import { titleVariants } from './Variants'
 
 function Experience() {
 
@@ -31,14 +21,16 @@ function Experience() {
   return (
     <>
     <motion.div className='exp'>
-      <motion.h2 className='p-4 text-4xl'
-        variants={titleVariant}
+      <motion.h2 className='p-10 text-4xl font-righteous text-center'
+        variants={titleVariants}
+        initial='hidden'
         whileInView='visible'
         viewport={{ once: true }}
-      >Experience</motion.h2>
-
-      <hr className='p-4' />
-      <div className="grid grid-cols-3 gap-4 p-2">
+      >
+        Experience
+      </motion.h2>
+      <hr className='w-[50%] mx-auto' />
+      <div className="grid grid-cols-3 gap-4 p-10">
       <motion.div className="p-4 flip-card rounded-lg cursor-pointer"
           onClick={() => handleFlip(2)}
           initial = {{opacity: 0, y: '20vh'}}

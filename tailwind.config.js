@@ -4,7 +4,11 @@ export default {
     './src/**/*.{js,jsx,ts,tsx}',  // Ensures Tailwind scans all JS, JSX, TS, and TSX files in the src folder
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'righteous': ['Righteous'], // Add your font family here
+      },
+    },
   },
   plugins: [],
 }
