@@ -15,7 +15,7 @@ function Projects() {
       Projects
     </motion.h2>
     <hr className='w-[50%] mx-auto' />
-    <div className='grid grid-cols-2 p-10 gap-8'>
+    <div className='grid gird-cols-1 md:grid-cols-2 p-10 gap-8'>
       <WebsitePreview url={'https://www.kingdom-code.com'}/>
       <WebsitePreview url={'https://www.lg-signs.com'}/>
     </div>

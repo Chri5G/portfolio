@@ -30,7 +30,7 @@ function Experience() {
         Experience
       </motion.h2>
       <hr className='w-[50%] mx-auto' />
-      <div className="grid grid-cols-3 gap-4 p-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-10">
       <motion.div className="p-4 flip-card rounded-lg cursor-pointer"
           onClick={() => handleFlip(2)}
           initial = {{opacity: 0, y: '20vh'}}
