@@ -17,7 +17,7 @@ function App() {
         <Route path='*' element={<Home />}/>
         <Route path='/experience' element={<Experience />}/>
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   )
 }
