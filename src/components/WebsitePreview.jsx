@@ -14,7 +14,7 @@ const WebsitePreview = ({ url }) => {
       <iframe
         src={url} // Replace with the desired website URL
         title="Embedded Website"
-        style={{ width: '100%', height: '56vh'}} // Set height large enough to scroll
+        style={{ width: '100%', height: '100vh'}} // Set height large enough to scroll
       />
     </motion.div>
   );
